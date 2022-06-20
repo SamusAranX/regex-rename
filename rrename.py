@@ -35,9 +35,9 @@ def main(args):
 			file_num += 1
 
 	if file_num == 1:
-		print(f"{file_num} file renamed.")
+		print(f"--- {file_num} file renamed.")
 	else:
-		print(f"{file_num} files renamed.")
+		print(f"--- {file_num} files renamed.")
 
 
 if __name__ == "__main__":
